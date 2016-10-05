@@ -42,3 +42,27 @@ canvas.fill();
 canvas.fillStyle = "black";
 canvas.fillRect(200, 50, 15, 245);
 //flag on ship
+
+//trapazoid
+canvas.fillStyle = '#f00';
+canvas.beginPath();
+canvas.moveTo(0, 0);
+canvas.lineTo(100,50);
+canvas.lineTo(50, 100);
+canvas.lineTo(0, 90);
+canvas.closePath();
+canvas.fill();
+
+//canonn
+canvas.fillStyle = "black";
+canvas.beginPath();
+canvas.rotate(-10*Math.PI/180);
+canvas.fillRect(390,345,100,20);
+canvas.fill();
+
+//canonn ball
+canvas.beginPath();
+canvas.fillStyle = "gray";
+canvas.arc(650, 350, 10, 0, 2*Math.PI);
+canvas.stroke();
+canvas.fill();
