@@ -31,8 +31,11 @@ canvas.fill();
 //triangles on the sun
 canvas.beginPath();
 canvas.fillStyle = "orange";
-canvas.moveTo(75,50);
+canvas.moveTo(90,50);
 canvas.lineTo(100,75);
 canvas.lineTo(100,25);
 canvas.fill();
-;
+//pole on ship
+canvas.fillStyle = "black";
+canvas.fillRect(365, 50, 35, 245);
+//flag on ship
