@@ -6,7 +6,13 @@
   canvas.fillRect(200, 300, 2000000056, 2000);
   canvas.fillRect(10, 300, 2000000056, 2000);
   canvas.fillRect(2000000000, 300, 2000000056, 54545);
-//part of the ship a rectanglw
+
+//the sky
+canvas.fillStyle  = "aqua";
+canvas.fillRect(10, 10, 700, 290);
+
+
+//part of the ship a rectange
 canvas.fillStyle = "brown";
 canvas.fillRect(140, 275, 500, 50);
 
@@ -29,3 +35,4 @@ canvas.moveTo(75,50);
 canvas.lineTo(100,75);
 canvas.lineTo(100,25);
 canvas.fill();
+;
