@@ -1,19 +1,6 @@
 
   var canvasDiv = document.getElementById("drawingArea");
   var canvas = canvasDiv.getContext('2d');
-//the sea
-  canvas.fillStyle = "blue";
-  canvas.fillRect(200, 300, 2000000056, 2000);
-  canvas.fillRect(10, 300, 2000000056, 2000);
-  canvas.fillRect(2000000000, 300, 2000000056, 54545);
-
-//the sky
-var grd = canvas.createRadialGradient(75,50,50,90,100,900);
-grd.addColorStop(0,"aqua");
-grd.addColorStop(1,"white");
-
-canvas.fillStyle = grd;
-canvas.fillRect(10, 10, 1000, 290);
 
 //part of the ship a rectange
 canvas.fillStyle = "brown";
@@ -52,6 +39,15 @@ canvas.fillRect(200, 50, 15, 245);
 //canvas.closePath();
 //canvas.fill();
 
+//cannon holes on the ship
+canvas.fillStyle = "red";
+canvas.fillRect(225, 325, 15, 15);
+
+canvas.fillStyle = "red";
+canvas.fillRect(300, 325, 15, 15);
+
+canvas.fillStyle = "red";
+canvas.fillRect(375, 325, 15, 15);
 //canonn
 canvas.fillStyle = "black";
 canvas.beginPath();
