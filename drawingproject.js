@@ -28,16 +28,9 @@ canvas.fillRect(200, 50, 15, 245);
  canvas.lineTo(80,60);
  canvas.lineTo(200,100);
  canvas.fill();
-
-//trapazoid
-//canvas.fillStyle = '#f00';
-//canvas.beginPath();
-//canvas.moveTo(0, 0);
-//canvas.lineTo(100,50);
-//canvas.lineTo(50, 100);
-//canvas.lineTo(0, 90);
-//canvas.closePath();
-//canvas.fill();
+ //island
+ canvas.fillStyle = "Khaki";
+ canvas.fillRect(334, 175, 250, 90);
 
 //cannon holes on the ship
 canvas.fillStyle = "red";
