@@ -31,22 +31,15 @@ canvas.fillStyle = "brown";
 canvas.arc(315,300,130,3.1,0,true);
 canvas.stroke();
 canvas.fill();
-//triangles on the sun
-/*/canvas.beginPath();
-canvas.fillStyle = "orange";
-canvas.moveTo(90,50);
-canvas.lineTo(200,85);
-canvas.lineTo(280,45);
-canvas.fill();/*/
 //pole on ship
 canvas.fillStyle = "black";
 canvas.fillRect(200, 50, 15, 245);
 //flag on ship
  canvas.beginPath();
  canvas.fillStyle = "white";
- canvas.moveTo(-50,50);
- canvas.lineTo(100,75);
- canvas.lineTo(100,25);
+ canvas.moveTo(200,50);
+ canvas.lineTo(80,60);
+ canvas.lineTo(200,100);
  canvas.fill();
 
 //trapazoid
