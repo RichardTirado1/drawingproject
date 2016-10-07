@@ -28,9 +28,9 @@ canvas.fillRect(200, 50, 15, 245);
  canvas.lineTo(80,60);
  canvas.lineTo(200,100);
  canvas.fill();
- //island
+ //base of the island
  canvas.fillStyle = "Khaki";
- canvas.fillRect(334, 175, 250, 90);
+ canvas.fillRect(700, 400, 900, 170);
 
 //cannon holes on the ship
 canvas.fillStyle = "red";
